@@ -19,30 +19,70 @@ export default function AboutPage() {
         </p>
       </div>
 
-      {/* 理念セクション */}
+      {/* ミッションとビジョン */}
       <section className="mb-20">
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div>
-            <h2 className="mb-6 text-3xl font-bold">私たちの理念</h2>
+            <h2 className="mb-6 text-3xl font-bold">ミッション</h2>
             <p className="mb-4 text-lg text-gray-700">
-              M-DAOは「メタバースを通じて、人々の生活と仕事に新しい価値を創造する」という理念のもと設立されました。
+              私たちM-DAOは、「日本のメタバース文化を世界に広げる」というミッションを持っています。
             </p>
             <p className="mb-4 text-lg text-gray-700">
-              私たちは、VR技術を活用して、物理的な制約を超えた新しいコミュニケーションや体験の場を提供します。
-              企業や団体がメタバース空間を活用し、新しいビジネスチャンスを創出するお手伝いをしています。
+              このミッションは、単に技術的な成果を追求するだけでなく、日本独自の文化、芸術、そしてコミュニティの価値をグローバルなステージで展開し、世界中の人々と共有することを目指しています。
             </p>
-            <p className="text-lg text-gray-700">
-              カピバラ温泉をはじめとする親しみやすいVR空間の制作を通じて、
-              テクノロジーと人間らしさが共存する未来を目指しています。
+            <p className="mb-4 text-lg text-gray-700">
+              メタバースが提供する無限の可能性を活用し、新たな文化的交流の架け橋となること。それが私たちの目標です。
             </p>
           </div>
           <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
             <Image
               src="/images/about-philosophy.jpg"
-              alt="M-DAOの理念"
+              alt="M-DAOのミッション"
               fill
               className="object-cover"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* ビジョンセクション */}
+      <section className="mb-20 bg-green-50 p-8 rounded-xl">
+        <h2 className="mb-6 text-3xl font-bold text-center">ビジョン</h2>
+        <div className="max-w-3xl mx-auto">
+          <p className="mb-4 text-lg text-gray-700">
+            私たちのビジョンは、「ユーザー主導の経済活動が可能な独自メタバース空間の創出」にあります。
+          </p>
+          <p className="mb-4 text-lg text-gray-700">
+            ユーザーが自らのアイデアやクリエイティビティを自由に表現し、それをもとにした経済活動を展開できる、そんな環境提供をしていきたいと考えています。
+          </p>
+          <p className="text-lg text-gray-700">
+            M-DAOが開発・提供を目指すメタバース空間は、単なる娟楽の場を超え、新たな価値創造のプラットフォームとなることを目指しています。
+          </p>
+        </div>
+      </section>
+
+      {/* 私たちの役割セクション */}
+      <section className="mb-20">
+        <div className="grid gap-12 md:grid-cols-2 md:items-center">
+          <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl md:order-last">
+            <Image
+              src="/images/about-philosophy.jpg"
+              alt="M-DAOの役割"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div>
+            <h2 className="mb-6 text-3xl font-bold">私たちの役割</h2>
+            <p className="mb-4 text-lg text-gray-700">
+              M-DAOは、このビジョンを実現するために、メタバース空間の設計・開発から、企業やクリエイターへの技術支援、イベントの企画・運営まで、幅広い活動を行っています。
+            </p>
+            <p className="mb-4 text-lg text-gray-700">
+              特に、日本の豊かな文化資源を活用したメタバースコンテンツの開発には力を入れていき、世界中の人々が日本文化の魅力を新しい形で体験できるようなプロジェクトを多数手掛けていきます。
+            </p>
+            <p className="text-lg text-gray-700">
+              カピバラ温泉をはじめとする親しみやすいVR空間の制作を通じて、テクノロジーと人間らしさが共存する未来を目指しています。
+            </p>
           </div>
         </div>
       </section>

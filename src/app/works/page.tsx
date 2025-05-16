@@ -8,68 +8,98 @@ export const metadata: Metadata = {
   keywords: ["実績", "VR空間", "メタバース", "イベント運営", "アバター作成", "M-DAO"],
 };
 
-// 本来はmicroCMSから取得するデータ
+// 実績データ
 const worksData = [
   {
-    id: "work1",
-    title: "大手企業向けバーチャルオフィス構築",
+    id: "aopanda-land",
+    title: "あおぱんだランド制作",
     category: "vr-space",
     categoryName: "VR空間制作",
     thumbnail: "/images/works-1.jpg",
-    description: "リモートワーク環境を強化するための大規模バーチャルオフィスを構築。会議室、コラボレーションスペース、カジュアルな交流エリアを備えた空間設計。",
-    client: "株式会社テクノファイブ",
-    date: "2024年3月",
+    description: "vketcloudで制作した「あおぱんだランド」は、公式ワールドを除くプラットフォーム内での累計来場者数1位を達成。あおぱんだ公認クリエイターとして認定されました。",
+    client: "一般公開",
+    date: "2023年",
   },
   {
-    id: "work2",
-    title: "メタバース展示会プラットフォーム開発",
+    id: "tanabata-live",
+    title: "あおぱんだ七夕ライブ開催",
     category: "event",
     categoryName: "イベント運営",
     thumbnail: "/images/works-2.jpg",
-    description: "COVID-19対策として物理的な展示会を代替するバーチャル展示会プラットフォームを開発。3Dブース展示、ライブプレゼンテーション、商談機能を実装。",
-    client: "イベントテック株式会社",
-    date: "2024年1月",
+    description: "2023年7月16日に開催した七夕ライブでは、三木道山氏を迎え、600名もの参加者が集まる大規模イベントとなりました。Riumプラットフォームを使用。",
+    client: "あおぱんだプロジェクト",
+    date: "2023年7月16日",
   },
   {
-    id: "work3",
-    title: "企業マスコットキャラクターのアバター化",
-    category: "avatar",
-    categoryName: "アバター作成",
+    id: "hanami-live",
+    title: "お花見ライブイベント",
+    category: "event",
+    categoryName: "イベント運営",
     thumbnail: "/images/works-3.jpg",
-    description: "人気企業マスコットキャラクターをVR空間で活用可能なアバターとして開発。表情や動きの特徴を忠実に再現し、広報活動やイベントで活用。",
-    client: "株式会社クリエイティブワールド",
-    date: "2023年12月",
+    description: "2023年4月8日に開催したお花見ライブイベントには417名が参加。桜の季節を楽しむための特別なバーチャル空間を制作し、cluster上で展開しました。",
+    client: "あおぱんだプロジェクト",
+    date: "2023年4月8日",
   },
   {
-    id: "work4",
-    title: "カピバラ温泉VR空間",
-    category: "vr-space",
-    categoryName: "VR空間制作",
+    id: "halloween-event",
+    title: "あおぱんだハロウィンイベント",
+    category: "event",
+    categoryName: "イベント運営",
     thumbnail: "/images/works-4.jpg",
-    description: "人気の観光地「カピバラ温泉」をモチーフにしたリラクゼーション用VR空間を開発。自然音や温泉エフェクトによる高い没入感を実現。",
-    client: "バーチャルリゾート株式会社",
-    date: "2023年11月",
+    description: "2023年10月29日に開催したハロウィンイベントでは、特別な装飾と仮装コンテストを実施。302名の参加者が集まり、clusterプラットフォーム上で盛大に開催されました。",
+    client: "あおぱんだプロジェクト",
+    date: "2023年10月29日",
   },
   {
-    id: "work5",
-    title: "バーチャル社員研修プログラム",
+    id: "nemu-event",
+    title: "バーチャル美少女ねむ氏登壇イベント",
     category: "event",
     categoryName: "イベント運営",
     thumbnail: "/images/works-5.jpg",
-    description: "全国各地の社員が参加可能なバーチャル研修プログラムを企画・運営。インタラクティブなワークショップ形式で効果的な学習体験を提供。",
-    client: "グローバルHR株式会社",
-    date: "2023年10月",
+    description: "2023年9月9日にバーチャル美少女ねむ氏を特別ゲストに迎えた限定イベントを開催。参加者50名限定の特別な交流の場を提供しました。clusterプラットフォーム使用。",
+    client: "一般社団法人あそび庁",
+    date: "2023年9月9日",
   },
   {
-    id: "work6",
-    title: "社員向けカスタムアバターシステム",
-    category: "avatar",
-    categoryName: "アバター作成",
+    id: "christmas-event",
+    title: "あおぱんだクリスマスイベント",
+    category: "event",
+    categoryName: "イベント運営",
     thumbnail: "/images/works-6.jpg",
-    description: "企業ブランドを反映しながら個人の特徴も表現できる、社員用カスタムアバター作成システムを開発。バーチャルオフィスでの使用を想定。",
-    client: "株式会社テクノファイブ",
-    date: "2023年9月",
+    description: "2023年12月23日にvketcloud上で開催したクリスマスイベントには140名が参加。季節感あふれる特別な装飾とプログラムで参加者に喜ばれました。",
+    client: "あおぱんだプロジェクト",
+    date: "2023年12月23日",
   },
+  {
+    id: "valentine-event",
+    title: "あおぱんだバレンタインイベント",
+    category: "event",
+    categoryName: "イベント運営",
+    thumbnail: "/images/works-2.jpg",
+    description: "2023年2月12日にcluster上で開催したバレンタインイベントには220名が参加。特別企画とバーチャルチョコレート作りワークショップが好評でした。",
+    client: "あおぱんだプロジェクト",
+    date: "2023年2月12日",
+  },
+  {
+    id: "christmas-live-2022",
+    title: "あおぱんだクリスマスライブ2022",
+    category: "event",
+    categoryName: "イベント運営",
+    thumbnail: "/images/works-1.jpg",
+    description: "2022年12月25日に開催した初のクリスマスライブイベントには135名が参加。cluster上での音楽パフォーマンスと交流の場を提供しました。",
+    client: "あおぱんだプロジェクト",
+    date: "2022年12月25日",
+  },
+  {
+    id: "ninja-dao-projects",
+    title: "NinjaDAO空間制作プロジェクト",
+    category: "vr-space",
+    categoryName: "VR空間制作",
+    thumbnail: "/images/works-3.jpg",
+    description: "2022年4月にNinjaDAO cluster事業部にて共同作業による空間制作案件を3件実施。これをきっかけに一般社団法人あそび庁様から個別に制作依頼を受けることになりました。",
+    client: "NinjaDAO",
+    date: "2022年4月",
+  }
 ];
 
 export default function WorksPage() {
@@ -81,6 +111,25 @@ export default function WorksPage() {
         <p className="mx-auto max-w-2xl text-xl text-gray-600">
           私たちのVR空間制作・イベント運営・アバター作成の事例をご紹介します
         </p>
+      </div>
+
+      {/* 実績概要 */}
+      <div className="mb-16 rounded-xl bg-green-50 p-8">
+        <h2 className="mb-6 text-2xl font-bold text-center">実績ハイライト</h2>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="rounded-lg bg-white p-6 shadow-md">
+            <h3 className="mb-3 text-xl font-semibold text-green-700">空間制作実績</h3>
+            <p className="text-gray-700">2024年4月現在、メタバース空間の制作実績は合計24件に達しています。</p>
+          </div>
+          <div className="rounded-lg bg-white p-6 shadow-md">
+            <h3 className="mb-3 text-xl font-semibold text-green-700">イベント開催実績</h3>
+            <p className="text-gray-700">これまでにメタバースイベントの企画・運営を合計20件実施し、多数の参加者を集めています。</p>
+          </div>
+          <div className="rounded-lg bg-white p-6 shadow-md">
+            <h3 className="mb-3 text-xl font-semibold text-green-700">特別認定</h3>
+            <p className="text-gray-700">vketcloudで制作した「あおぱんだランド」はプラットフォーム内で1位を獲得し、あおぱんだ公認クリエイターとして認定されています。</p>
+          </div>
+        </div>
       </div>
 
       {/* カテゴリーフィルター */}
