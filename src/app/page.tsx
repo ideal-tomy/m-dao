@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -22,7 +24,7 @@ export default function Home() {
           />
         </motion.div>
         
-        <div className="container relative z-10 flex h-full flex-col items-center justify-center text-center">
+        <div className="container relative z-10 flex h-full flex-col items-center justify-center text-center pt-16">
           <motion.h1 
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}

@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="border-t bg-green-50">
       <div className="container py-12">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {/* u4f1au793eu60c5u5831 */}
+          {/* 会社情報 */}
           <div>
             <div className="mb-4 flex items-center gap-2">
               <Image 
@@ -21,84 +21,84 @@ export function Footer() {
               <span className="text-xl font-bold">M-DAO</span>
             </div>
             <p className="mb-4 text-gray-600">
-              VRu7a7au9593u5236u4f5cu30fbu30a4u30d9u30f3u30c8u904bu55b6u30fbu30a2u30d0u30bfu30fcu4f5cu6210u3092u901au3058u3066u3001u4f01u696du30fbu56e3u4f53u306eu30e1u30bfu30d0u30fcu30b9u6d3bu7528u3092u30b5u30ddu30fcu30c8u3057u307eu3059u3002
+              VR空間制作・イベント運営・アバター作成を通じて、企業・団体のメタバース活用をサポートします。
             </p>
             <p className="text-gray-600">
-              u6771u4eacu90fdu6e0bu8c37u533au30e1u30bfu30d0u30fcu30b9u901au308a1-1-1
+              東京都渋谷区メタバース通り1-1-1
             </p>
           </div>
 
-          {/* u30b5u30a4u30c8u30deu30c3u30d7 */}
+          {/* サイトマップ */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold">u30b5u30a4u30c8u30deu30c3u30d7</h3>
+            <h3 className="mb-4 text-lg font-semibold">サイトマップ</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-gray-600 hover:text-green-600 hover:underline">
-                  u30dbu30fcu30e0
+                  ホーム
                 </Link>
               </li>
               <li>
                 <Link href="/about" className="text-gray-600 hover:text-green-600 hover:underline">
-                  M-DAOu306bu3064u3044u3066
+                  M-DAOについて
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-gray-600 hover:text-green-600 hover:underline">
-                  u30b5u30fcu30d3u30b9
-                </Link>
-              </li>
-              <li>
-                <Link href="/works" className="text-gray-600 hover:text-green-600 hover:underline">
-                  u5b9fu7e3e
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-gray-600 hover:text-green-600 hover:underline">
-                  u304au554fu3044u5408u308fu305b
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* u30b5u30fcu30d3u30b9 */}
-          <div>
-            <h3 className="mb-4 text-lg font-semibold">u30b5u30fcu30d3u30b9</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/services#vr-space" className="text-gray-600 hover:text-green-600 hover:underline">
-                  VRu7a7au9593u5236u4f5c
-                </Link>
-              </li>
-              <li>
-                <Link href="/services#event" className="text-gray-600 hover:text-green-600 hover:underline">
-                  u30a4u30d9u30f3u30c8u904bu55b6
-                </Link>
-              </li>
-              <li>
-                <Link href="/services#avatar" className="text-gray-600 hover:text-green-600 hover:underline">
-                  u30a2u30d0u30bfu30fcu4f5cu6210
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* u30d6u30edu30b0/u304au77e5u3089u305b */}
-          <div>
-            <h3 className="mb-4 text-lg font-semibold">u30d6u30edu30b0/u304au77e5u3089u305b</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/blog" className="text-gray-600 hover:text-green-600 hover:underline">
-                  u30d6u30edu30b0
+                  サービス
                 </Link>
               </li>
               <li>
                 <Link href="/news" className="text-gray-600 hover:text-green-600 hover:underline">
-                  u304au77e5u3089u305b
+                  お知らせ
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-gray-600 hover:text-green-600 hover:underline">
+                  お問い合わせ
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* サービス */}
+          <div>
+            <h3 className="mb-4 text-lg font-semibold">サービス</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/services#vr-space" className="text-gray-600 hover:text-green-600 hover:underline">
+                  VR空間制作
+                </Link>
+              </li>
+              <li>
+                <Link href="/services#event" className="text-gray-600 hover:text-green-600 hover:underline">
+                  イベント運営
+                </Link>
+              </li>
+              <li>
+                <Link href="/services#avatar" className="text-gray-600 hover:text-green-600 hover:underline">
+                  アバター作成
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* ブログ/お知らせ */}
+          <div>
+            <h3 className="mb-4 text-lg font-semibold">ブログ/お知らせ</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/blog" className="text-gray-600 hover:text-green-600 hover:underline">
+                  ブログ
+                </Link>
+              </li>
+              <li>
+                <Link href="/news" className="text-gray-600 hover:text-green-600 hover:underline">
+                  お知らせ
                 </Link>
               </li>
             </ul>
             <div className="mt-6">
-              <h3 className="mb-4 text-lg font-semibold">u30bdu30fcu30b7u30e3u30ebu30e1u30c7u30a3u30a2</h3>
+              <h3 className="mb-4 text-lg font-semibold">ソーシャルメディア</h3>
               <div className="flex gap-4">
                 <a href="#" className="text-gray-600 hover:text-green-600">
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

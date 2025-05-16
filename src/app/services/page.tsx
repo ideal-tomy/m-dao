@@ -3,57 +3,57 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "u30b5u30fcu30d3u30b9 | VRu7a7au9593u5236u4f5cu30fbu30a4u30d9u30f3u30c8u904bu55b6u30fbu30a2u30d0u30bfu30fcu4f5cu6210",
-  description: "M-DAOu304cu63d0u4f9bu3059u308bVRu7a7au9593u5236u4f5cu3001u30e1u30bfu30d0u30fcu30b9u30a4u30d9u30f3u30c8u904bu55b6u3001u30a2u30d0u30bfu30fcu4f5cu6210u30b5u30fcu30d3u30b9u306eu8a73u7d30u3092u3054u7d39u4ecbu3057u307eu3059u3002",
-  keywords: ["VRu7a7au9593", "u30e1u30bfu30d0u30fcu30b9", "u30a4u30d9u30f3u30c8u904bu55b6", "u30a2u30d0u30bfu30fcu4f5cu6210", "u30abu30d4u30d0u30e9u6e29u6cc9"],
+  title: "サービス | VR空間制作・イベント運営・アバター作成",
+  description: "M-DAOが提供するVR空間制作、メタバースイベント運営、アバター作成サービスの詳細をご紹介します。",
+  keywords: ["VR空間", "メタバース", "イベント運営", "アバター作成", "カピバラ温泉"],
 };
 
 export default function ServicesPage() {
   return (
     <div className="container py-12">
-      {/* u30dau30fcu30b8u30d8u30c3u30c0u30fc */}
+      {/* ページヘッダー */}
       <div className="mb-12 text-center">
-        <h1 className="mb-4 text-4xl font-bold md:text-5xl">u30b5u30fcu30d3u30b9</h1>
+        <h1 className="mb-4 text-4xl font-bold md:text-5xl">サービス</h1>
         <p className="mx-auto max-w-2xl text-xl text-gray-600">
-          u4f01u696du30fbu56e3u4f53u306eu30e1u30bfu30d0u30fcu30b9u6d3bu7528u3092u652fu63f4u3059u308b3u3064u306eu30b5u30fcu30d3u30b9
+          企業・団体のメタバース活用を支援する3つのサービス
         </p>
       </div>
 
-      {/* VRu7a7au9593u5236u4f5c */}
+      {/* VR空間制作 */}
       <section id="vr-space" className="mb-24 scroll-mt-20">
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div className="order-2 md:order-1">
-            <h2 className="mb-6 text-3xl font-bold">VRu7a7au9593u5236u4f5c</h2>
+            <h2 className="mb-6 text-3xl font-bold">VR空間制作</h2>
             <p className="mb-4 text-lg text-gray-700">
-              u30aau30eau30b8u30cau30ebu306eVRu7a7au9593u3092u30c7u30b6u30a4u30f3u30fbu5236u4f5cu3057u3001u4f01u696du30d6u30e9u30f3u30c9u306bu5408u308fu305bu305fu6ca1u5165u611fu306eu3042u308bu4f53u9a13u3092u63d0u4f9bu3057u307eu3059u3002
-              u5c55u793au4f1au3001u30d0u30fcu30c1u30e3u30ebu30aau30d5u30a3u30b9u3001u5546u54c1u5c55u793au306au3069u3001u76eeu7684u306bu5fdcu3058u305fu7a7au9593u8a2du8a08u304cu53efu80fdu3067u3059u3002
+              オリジナルのVR空間をデザイン・制作し、企業ブランドに合わせた没入感のある体験を提供します。
+              展示会、バーチャルオフィス、商品展示など、目的に応じた空間設計が可能です。
             </p>
             
-            <h3 className="mb-3 mt-6 text-xl font-semibold">u4e3bu306au7279u5fb4</h3>
+            <h3 className="mb-3 mt-6 text-xl font-semibold">主な特徴</h3>
             <ul className="mb-6 space-y-2 text-lg text-gray-700">
               <li className="flex items-start">
                 <svg className="mr-2 h-6 w-6 flex-shrink-0 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>u30d6u30e9u30f3u30c9u306bu5408u308fu305bu305fu30abu30b9u30bfu30e0u30c7u30b6u30a4u30f3</span>
+                <span>ブランドに合わせたカスタムデザイン</span>
               </li>
               <li className="flex items-start">
                 <svg className="mr-2 h-6 w-6 flex-shrink-0 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>u8907u6570u30d7u30e9u30c3u30c8u30d5u30a9u30fcu30e0u5bfeu5fdcuff08VRChatu3001clusteru7b49uff09</span>
+                <span>複数プラットフォーム対応（VRChat、cluster等）</span>
               </li>
               <li className="flex items-start">
                 <svg className="mr-2 h-6 w-6 flex-shrink-0 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>u30a4u30f3u30bfu30e9u30afu30c6u30a3u30d6u8981u7d20u306eu5b9fu88c5</span>
+                <span>インタラクティブ要素の実装</span>
               </li>
               <li className="flex items-start">
                 <svg className="mr-2 h-6 w-6 flex-shrink-0 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>u6700u9069u5316u3055u308cu305fu30d1u30d5u30a9u30fcu30deu30f3u30b9</span>
+                <span>最適化されたパフォーマンス</span>
               </li>
             </ul>
             
@@ -62,7 +62,7 @@ export default function ServicesPage() {
                 href="/contact"
                 className="rounded-full bg-green-600 px-6 py-3 font-medium text-white transition-colors hover:bg-green-700"
               >
-                u304au554fu3044u5408u308fu305b
+                お問い合わせ
               </Link>
             </div>
           </div>
@@ -70,73 +70,73 @@ export default function ServicesPage() {
           <div className="relative order-1 aspect-video overflow-hidden rounded-xl shadow-xl md:order-2">
             <Image
               src="/images/vr-space-service.jpg"
-              alt="VRu7a7au9593u5236u4f5cu30b5u30fcu30d3u30b9"
+              alt="VR空間制作サービス"
               fill
               className="object-cover"
             />
           </div>
         </div>
         
-        {/* u4e8bu4f8b */}
+        {/* 事例 */}
         <div className="mt-16">
-          <h3 className="mb-6 text-2xl font-bold">u5236u4f5cu4e8bu4f8b</h3>
+          <h3 className="mb-6 text-2xl font-bold">制作事例</h3>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {/* u4e8bu4f8b1 */}
+            {/* 事例1 */}
             <div className="overflow-hidden rounded-xl bg-white shadow-lg">
               <div className="aspect-video overflow-hidden">
                 <Image
                   src="/images/vr-case-1.jpg"
-                  alt="u30abu30d4u30d0u30e9u6e29u6cc9VR"
+                  alt="カピバラ温泉VR"
                   width={600}
                   height={340}
                   className="h-full w-full object-cover transition-transform hover:scale-105"
                 />
               </div>
               <div className="p-6">
-                <h4 className="mb-2 text-xl font-semibold">u30abu30d4u30d0u30e9u6e29u6cc9VR</h4>
+                <h4 className="mb-2 text-xl font-semibold">カピバラ温泉VR</h4>
                 <p className="text-gray-600">
-                  u4ebau6c17u306eu30abu30d4u30d0u30e9u6e29u6cc9u3092u30e2u30c1u30fcu30d5u306bu3057u305fu30eau30e9u30c3u30afu30b9u7a7au9593u3002
-                  u81eau7136u97f3u3084u6e29u6cc9u30a8u30d5u30a7u30afu30c8u3067u6ca1u5165u611fu3092u9ad8u3081u305fu7652u3057u7cfbVRu7a7au9593u3002
+                  人気のカピバラ温泉をモチーフにしたリラックス空間。
+                  自然音や温泉エフェクトで没入感を高めた癒し系VR空間。
                 </p>
               </div>
             </div>
             
-            {/* u4e8bu4f8b2 */}
+            {/* 事例2 */}
             <div className="overflow-hidden rounded-xl bg-white shadow-lg">
               <div className="aspect-video overflow-hidden">
                 <Image
                   src="/images/vr-case-2.jpg"
-                  alt="u4f01u696du30d0u30fcu30c1u30e3u30ebu30aau30d5u30a3u30b9"
+                  alt="企業バーチャルオフィス"
                   width={600}
                   height={340}
                   className="h-full w-full object-cover transition-transform hover:scale-105"
                 />
               </div>
               <div className="p-6">
-                <h4 className="mb-2 text-xl font-semibold">u4f01u696du30d0u30fcu30c1u30e3u30ebu30aau30d5u30a3u30b9</h4>
+                <h4 className="mb-2 text-xl font-semibold">企業バーチャルオフィス</h4>
                 <p className="text-gray-600">
-                  u30eau30e2u30fcu30c8u30efu30fcu30afu6642u4ee3u306bu5bfeu5fdcu3057u305fu4eeeu60f3u30aau30d5u30a3u30b9u7a7au9593u3002
-                  u4f1au8b70u5ba4u3084u30b3u30e9u30dcu30ecu30fcu30b7u30e7u30f3u30b9u30dau30fcu30b9u3092u5b8cu5099u3002
+                  リモートワーク時代に対応した仮想オフィス空間。
+                  会議室やコラボレーションスペースを完備。
                 </p>
               </div>
             </div>
             
-            {/* u4e8bu4f8b3 */}
+            {/* 事例3 */}
             <div className="overflow-hidden rounded-xl bg-white shadow-lg">
               <div className="aspect-video overflow-hidden">
                 <Image
                   src="/images/vr-case-3.jpg"
-                  alt="u30d0u30fcu30c1u30e3u30ebu5c55u793au4f1a"
+                  alt="バーチャル展示会"
                   width={600}
                   height={340}
                   className="h-full w-full object-cover transition-transform hover:scale-105"
                 />
               </div>
               <div className="p-6">
-                <h4 className="mb-2 text-xl font-semibold">u30d0u30fcu30c1u30e3u30ebu5c55u793au4f1a</h4>
+                <h4 className="mb-2 text-xl font-semibold">バーチャル展示会</h4>
                 <p className="text-gray-600">
-                  u88fdu54c1u5c55u793au3068u30a4u30f3u30bfu30e9u30afu30c6u30a3u30d6u306au30c7u30e2u304cu53efu80fdu306au5c55u793au4f1au7a7au9593u3002
-                  u6765u5834u8005u30c7u30fcu30bfu306eu53ceu96c6u30fbu5206u6790u6a5fu80fdu3082u5b9fu88c5u3002
+                  製品展示とインタラクティブなデモが可能な展示会空間。
+                  来場者データの収集・分析機能も実装。
                 </p>
               </div>
             </div>
