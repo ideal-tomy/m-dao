@@ -112,24 +112,28 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="rounded-xl bg-white p-6 shadow-lg transition-all hover:-translate-y-2 hover:shadow-xl"
+              className="relative rounded-xl p-6 shadow-lg transition-all hover:-translate-y-2 hover:shadow-xl overflow-hidden bg-cover bg-center"
+              style={{ backgroundImage: "url('/images/service-VrSpace.jpg')" }}
             >
-              <motion.div 
-                whileHover={{ rotate: 360 }}
-                transition={{ duration: 0.7, ease: "easeInOut" }}
-                className="mb-4 rounded-full bg-green-100 p-3 inline-block"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-                </svg>
-              </motion.div>
-              <h3 className="mb-3 text-xl font-semibold">VR空間制作</h3>
-              <p className="mb-4 text-gray-600">
-                カピバラ温泉を含むオリジナルのVR空間をデザイン・制作。企業ブランドに合わせた空間で、癒しの体験を提供します。
-              </p>
-              <Link href="/services#vr-space" className="text-green-600 font-medium hover:underline">
-                詳しく見る &rarr;
-              </Link>
+              <div className="absolute inset-0 bg-black/50 z-0"></div>
+              <div className="relative z-10">
+                <motion.div 
+                  whileHover={{ rotate: 360 }}
+                  transition={{ duration: 0.7, ease: "easeInOut" }}
+                  className="mb-4 rounded-full bg-white/20 p-3 inline-block backdrop-blur-sm"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                  </svg>
+                </motion.div>
+                <h3 className="mb-3 text-xl font-semibold text-white">VR空間制作</h3>
+                <p className="mb-4 text-gray-200">
+                  カピバラ温泉を含むオリジナルのVR空間をデザイン・制作。企業ブランドに合わせた空間で、癒しの体験を提供します。
+                </p>
+                <Link href="/services#vr-space" className="text-green-300 font-medium hover:underline hover:text-green-200">
+                  詳しく見る &rarr;
+                </Link>
+              </div>
             </motion.div>
             
             {/* イベント運営 */}
@@ -138,24 +142,28 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="rounded-xl bg-white p-6 shadow-lg transition-all hover:-translate-y-2 hover:shadow-xl"
+              className="relative rounded-xl p-6 shadow-lg transition-all hover:-translate-y-2 hover:shadow-xl overflow-hidden bg-cover bg-center"
+              style={{ backgroundImage: "url('/images/service-event.jpg')" }}
             >
-              <motion.div 
-                whileHover={{ rotate: 360 }}
-                transition={{ duration: 0.7, ease: "easeInOut" }}
-                className="mb-4 rounded-full bg-green-100 p-3 inline-block"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-              </motion.div>
-              <h3 className="mb-3 text-xl font-semibold">イベント運営</h3>
-              <p className="mb-4 text-gray-600">
-                メタバース空間でのイベントやセミナーの企画・運営。リアルとバーチャルを組み合わせた新しいイベント体験を提供します。
-              </p>
-              <Link href="/services#event" className="text-green-600 font-medium hover:underline">
-                詳しく見る &rarr;
-              </Link>
+              <div className="absolute inset-0 bg-black/50 z-0"></div>
+              <div className="relative z-10">
+                <motion.div 
+                  whileHover={{ rotate: 360 }}
+                  transition={{ duration: 0.7, ease: "easeInOut" }}
+                  className="mb-4 rounded-full bg-white/20 p-3 inline-block backdrop-blur-sm"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </motion.div>
+                <h3 className="mb-3 text-xl font-semibold text-white">イベント運営</h3>
+                <p className="mb-4 text-gray-200">
+                  メタバース空間でのイベントやセミナーの企画・運営。リアルとバーチャルを組み合わせた新しいイベント体験を提供します。
+                </p>
+                <Link href="/services#event" className="text-green-300 font-medium hover:underline hover:text-green-200">
+                  詳しく見る &rarr;
+                </Link>
+              </div>
             </motion.div>
             
             {/* アバター作成 */}
@@ -164,24 +172,28 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="rounded-xl bg-white p-6 shadow-lg transition-all hover:-translate-y-2 hover:shadow-xl"
+              className="relative rounded-xl p-6 shadow-lg transition-all hover:-translate-y-2 hover:shadow-xl overflow-hidden bg-cover bg-center"
+              style={{ backgroundImage: "url('/images/service-avatar.jpg')" }}
             >
-              <motion.div 
-                whileHover={{ rotate: 360 }}
-                transition={{ duration: 0.7, ease: "easeInOut" }}
-                className="mb-4 rounded-full bg-green-100 p-3 inline-block"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </motion.div>
-              <h3 className="mb-3 text-xl font-semibold">アバター作成</h3>
-              <p className="mb-4 text-gray-600">
-                企業ブランドに合わせたオリジナルアバターのデザイン・制作。メタバース空間でのアイデンティティを確立します。
-              </p>
-              <Link href="/services#avatar" className="text-green-600 font-medium hover:underline">
-                詳しく見る &rarr;
-              </Link>
+              <div className="absolute inset-0 bg-black/50 z-0"></div>
+              <div className="relative z-10">
+                <motion.div 
+                  whileHover={{ rotate: 360 }}
+                  transition={{ duration: 0.7, ease: "easeInOut" }}
+                  className="mb-4 rounded-full bg-white/20 p-3 inline-block backdrop-blur-sm"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
+                </motion.div>
+                <h3 className="mb-3 text-xl font-semibold text-white">アバター作成</h3>
+                <p className="mb-4 text-gray-200">
+                  企業ブランドに合わせたオリジナルアバターのデザイン・制作。メタバース空間でのアイデンティティを確立します。
+                </p>
+                <Link href="/services#avatar" className="text-green-300 font-medium hover:underline hover:text-green-200">
+                  詳しく見る &rarr;
+                </Link>
+              </div>
             </motion.div>
           </div>
         </div>
