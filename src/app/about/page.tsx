@@ -36,7 +36,7 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
             <Image
-              src="/images/about-philosophy.jpg"
+              src="/images/about-mission.jpg"
               alt="M-DAOのミッション"
               fill
               className="object-cover"
@@ -66,7 +66,7 @@ export default function AboutPage() {
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl md:order-last">
             <Image
-              src="/images/about-philosophy.jpg"
+              src="/images/about-Yakuwari.jpg"
               alt="M-DAOの役割"
               fill
               className="object-cover"

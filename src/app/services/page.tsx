@@ -182,7 +182,7 @@ export default function ServicesPage() {
           "オリジナルのVR空間をデザイン・制作し、企業ブランドに合わせた没入感のある体験を提供します。展示会、バーチャルオフィス、商品展示など、目的に応じた空間設計が可能です。",
           "メタバース空間構築に必要な3Dデザイン技術やプログラミング、音響技術など多岐にわたる技術を組み合わせ、当社は様々な技術を習得したメンバーによるチームでDAOの形態を実現しています。"
         ]}
-        image="/images/vr-space-service.jpg"
+        image="/images/service-VrSpace.jpg"
         imageAlt="VR空間制作サービス"
         technicalInfo={
           <ServiceFeatureCard title="技術情報">
@@ -219,19 +219,19 @@ export default function ServicesPage() {
         cases={
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <CaseCard
-              image="/images/vr-case-1.jpg"
+              image="/images/kapibara-onsen.jpg"
               title="カピバラ温泉VR"
               description="人気のカピバラ温泉をモチーフにしたリラックス空間。自然音や温泉エフェクトで没入感を高めた癒し系VR空間。"
               alt="カピバラ温泉VR"
             />
             <CaseCard
-              image="/images/vr-case-2.jpg"
+              image="/images/virtual office.jpg"
               title="企業バーチャルオフィス"
               description="リモートワーク時代に対応した仮想オフィス空間。会議室やコラボレーションスペースを完備。"
               alt="企業バーチャルオフィス"
             />
             <CaseCard
-              image="/images/vr-case-3.jpg"
+              image="/images/virtual Tenji.jpg"
               title="バーチャル展示会"
               description="製品展示とインタラクティブなデモが可能な展示会空間。来場者データの収集・分析機能も実装。"
               alt="バーチャル展示会"
@@ -249,7 +249,7 @@ export default function ServicesPage() {
         description={[
           "メタバース空間でのイベントやセミナーの企画・運営をサポート。リアルとバーチャルを組み合わせたハイブリッドイベントや、完全バーチャルでのイベント開催が可能です。企業説明会、製品発表会、社内研修など、様々な用途に対応します。"
         ]}
-        image="/images/event-service.jpg"
+        image="/images/service-event.jpg"
         imageAlt="メタバースイベント運営サービス"
         technicalInfo={
           <div>
@@ -290,19 +290,19 @@ export default function ServicesPage() {
         cases={
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <CaseCard
-              image="/images/event-case-1.jpg"
+              image="/images/Virtual Music Festival.jpg"
               title="バーチャル音楽フェス"
               description="複数のアーティストが出演するオンライン音楽フェスティバル。リアルタイムでの親交機能を実装。"
               alt="バーチャル音楽フェス"
             />
             <CaseCard
-              image="/images/event-case-2.jpg"
+              image="/images/Virtual Exhibition for Businesses.jpg"
               title="企業向けバーチャル展示会"
               description="大規模オンライン展示会の企画・運営・技術サポート。参加者行動分析ツールを提供。"
               alt="企業向けバーチャル展示会"
             />
             <CaseCard
-              image="/images/event-case-3.jpg"
+              image="/images/virtual university campus.png"
               title="バーチャル大学キャンパス見学会"
               description="全国各地の学生が参加できるバーチャルキャンパス見学会。インタラクティブな説明システムを実装。"
               alt="バーチャル大学キャンパス見学会"
@@ -319,7 +319,7 @@ export default function ServicesPage() {
           "企業ブランドに合わせたオリジナルアバターのデザイン・制作を行います。社員用アバター、マスコットキャラクター、イベント用特別アバターなど、メタバース空間でのアイデンティティを確立するお手伝いをします。",
           "メタバース形成の根幹となる3Dデザイン。特に、アバターは、この3D空間上の自分を表現する重要な要素です。外出時の身だしなみ同様、メタバース空間でのアバターは個人や企業のアイデンティティに関わる重要な要素です。"
         ]}
-        image="/images/avatar-service.jpg"
+        image="/images/service-avatar.jpg"
         imageAlt="アバター制作サービス"
         technicalInfo={
           <ServiceFeatureCard title="アバター制作の特色">
@@ -347,19 +347,19 @@ export default function ServicesPage() {
         cases={
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <CaseCard
-              image="/images/avatar-case-1.jpg"
+              image="/images/mascot avatar.jpg"
               title="企業マスコットアバター"
               description="企業のマスコットキャラクターをVR空間で活用できる3Dアバター化。表情やモーションを詳細に実装。"
               alt="企業マスコットアバター"
             />
             <CaseCard
-              image="/images/avatar-case-2.jpg"
+              image="/images/business avatar.jpg"
               title="社員用ビジネスアバター"
               description="バーチャルオフィスやバーチャル展示会などで使用する社員用ビジネスアバターの制作。ブランドカラーに合わせたデザイン。"
               alt="社員用ビジネスアバター"
             />
             <CaseCard
-              image="/images/avatar-case-3.jpg"
+              image="/images/character avatar.jpg"
               title="オリジナルキャラクターアバター"
               description="クライアントのオリジナルキャラクターのアバター化。ファングッズとしても利用可能な複数バージョンを実装。"
               alt="オリジナルキャラクターアバター"

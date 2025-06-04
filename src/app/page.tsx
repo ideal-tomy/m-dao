@@ -68,7 +68,7 @@ export default function Home() {
           <div className="mt-12 relative w-full max-w-4xl">
             <div className="aspect-video overflow-hidden rounded-xl shadow-2xl">
               <Image
-                src="/images/capybara-onsen.jpg"
+                src="/images/top.jpg"
                 alt="カピバラ温泉VR空間"
                 width={1200}
                 height={675}
